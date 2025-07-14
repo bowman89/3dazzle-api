@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "@jscad/modeling": "^2.12.5",
+    "@jscad/stl-serializer": "^2.1.20",
+    "jszip": "^3.10.1",
     "resend": "^4.6.0"
   }
 }
