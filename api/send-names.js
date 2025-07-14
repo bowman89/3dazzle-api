@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     // Send mailen
     await resend.emails.send({
       from: 'Navn Automailer <onboarding@resend.dev>',
-      to: 'dinmodtager@mail.dk',
+      to: 'thomas.bowman89@gmail.com',
       subject: 'Nye navne fra kunde',
       html,
     });
